@@ -14,6 +14,11 @@
 #include <QTimer>
 #include <QThread>
 #include <QMutex>
+#include <QLineEdit>
+#include <QDialog>
+#include <QDragEnterEvent>
+#include <QDropEvent>
+#include <QMimeData>
 
 #include "datamodels.h"
 #include "dataloader.h"

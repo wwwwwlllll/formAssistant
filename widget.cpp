@@ -1,5 +1,6 @@
 #include "widget.h"
 #include <QApplication>
+#include <QCoreApplication>
 #include <QDir>
 #include <QFileInfo>
 #include <QMimeData>
@@ -14,6 +15,10 @@
 #include <QScrollArea>
 #include <QDesktopServices>
 #include <QDebug>
+#include <QTime>
+#include <QTableWidgetItem>
+#include <QBrush>
+#include <QColor>
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
