@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui network concurrent
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -17,10 +17,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    widget.cpp
+    widget.cpp \
+    dataloader.cpp \
+    filenameparser.cpp \
+    imageprocessor.cpp \
+    uploadmanager.cpp
 
 HEADERS += \
-    widget.h
+    widget.h \
+    datamodels.h \
+    dataloader.h \
+    filenameparser.h \
+    imageprocessor.h \
+    uploadmanager.h
 
 TRANSLATIONS += \
     formAssistant_zh_CN.ts
