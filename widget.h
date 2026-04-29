@@ -47,7 +47,6 @@ public:
 private slots:
     void onStartClicked();
     void onFolderDropped(const QString &folderPath);
-    void onFilesProcessed();
     void onUploadClicked();
     void onImageUploadFinished(bool success, const QString &error, const QString &uid);
     void onOrderUploadFinished(bool success, const QString &error, const QString &uid);
